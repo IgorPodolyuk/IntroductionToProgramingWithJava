@@ -2,7 +2,7 @@ public class Ex07 {
 
 	public static void main(String[] args) {
   
-		// Print triangulе
+		// Print triangle
 		String row1 = "  *  ";
 		String row2 = " * * ";
 		String row3 = "* * *";
