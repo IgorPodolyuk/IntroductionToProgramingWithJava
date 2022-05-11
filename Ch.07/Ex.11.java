@@ -12,12 +12,12 @@ public class Ex11 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Въведете броя на редовете на правоъгълна матрица \"n x m\" (n,m>0): ");
 		int n = 0;
-		while (n<1) {
+		while (n<3) {
 			System.out.print("n = ");
 			n = input.nextInt();
 		}
 		int m = 0;
-		while (m<1) {
+		while (m<3) {
 			System.out.print("m = ");
 			m = input.nextInt();
 		}
