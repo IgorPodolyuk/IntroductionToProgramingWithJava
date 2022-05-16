@@ -22,7 +22,7 @@ public class Ex13_DecimalToRM2p {
 			char[] charArray = new char[32];
 			for (int i = 0; i < charArray.length; i++) {
 				charArray[i] = numberString.charAt(i);
-	    }
+	    		}
 			//charArray[0] - always 1 if R<0
 			System.out.println("Знакът на мантистата(S): (-)");
 			// create Eкспонента(p), pArray[8], reverse
@@ -53,7 +53,7 @@ public class Ex13_DecimalToRM2p {
 			char[] charArray = new char[32];
 			for (int i = 0; i < charArray.length; i++) {
 				charArray[i] = '0';
-	    }
+	    		}
 			//replace values of charArray with numberString shifted by 1 bit to right
 			for (int i = 1; i < charArray.length; i++) {
 				charArray[i] = numberString.charAt(i-1);
@@ -88,7 +88,7 @@ public class Ex13_DecimalToRM2p {
 			char[] charArray = new char[32];
 			for (int i = 0; i < charArray.length; i++) {
 				charArray[i] = '0';
-	    }
+	    		}
 			//replace values of charArray with numberString shifted by 2 bits to right
 			for (int i = 2; i < charArray.length; i++) {
 				charArray[i] = numberString.charAt(i-2);
