@@ -400,7 +400,6 @@ public class Ex10_MultiplyTwoPolynomial {
 				if (degrees[i] == 0 && numbers[i] == -1) {
 					System.out.print("-1");
 				}
-				System.out.print("-");
 				break;
 			default:
 				System.out.print(numbers[i]);
